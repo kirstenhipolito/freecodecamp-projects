@@ -1,0 +1,40 @@
+body {
+    /* background-color:paleturquoise; */
+    background: linear-gradient(0deg, paleturquoise, white);
+
+}
+
+#main {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+}
+
+figcaption {
+    margin: 5px;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: large;
+}
+
+#tribute-info {
+    margin: 2em 5em 2em 5em;
+    text-align: justify;
+}
+  
