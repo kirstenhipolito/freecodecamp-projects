@@ -11,15 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
 
-    <title>Tribute to Stig Pryds</title>
+    <title>Scuba Diving Liveaboard Survey</title>
 
   </head>
 
   <body>
     <main>
-        <div id="background"></div>
+        <div id="background">
 
-        <div id="page">
+        <!-- </div>
+
+        <div id="page"> -->
             <h1 id="title">Scuba Diving Liveaboard</h1>
             <p id="description">Sign up for a seven-day scuba diving excursion in the Tubbataha Reef.</p>
             
@@ -49,10 +51,30 @@
                 <input type="radio" id="radio_no" value="no" name="radio-field" checked>
                 <label for="radio_no">No</label><br>
                 <input type="radio" id="radio_yes" value="yes" name="radio-field">
-                <label for="radio_yes">Yes</label><br>
+                <label for="radio_yes">Yes</label>
                 </div>
-                <br><br>
+                <br>
+
+                <label for="checkbox-field">Which dive sites would you like to cover?</label>
+                <div id="checkbox-field">
+                <input type="checkbox" id="checkbox-amos-rock" value="amos-rock" name="checkbox-field">
+                <label for="checkbox-amos-rock">Amos Rock</label><br>
+                <input type="checkbox" id="checkbox-black-rock" value="black-rock" name="checkbox-field">
+                <label for="checkbox-black-rock">Black Rock</label><br>
+                <input type="checkbox" id="checkbox-shark-airport" value="shark-airport" name="checkbox-field">
+                <label for="checkbox-shark-airport">Shark Airport</label><br>
+                <input type="checkbox" id="checkbox-bird-island" value="bird-island" name="checkbox-field">
+                <label for="checkbox-bird-island">Bird Island</label><br>
+                <input type="checkbox" id="checkbox-malayan-wreck" value="malayan-wreck" name="checkbox-field">
+                <label for="checkbox-malayan-wreck">Malayan Wreck</label>
+                </div>
+                <br>
                 
+                <label for="requests-textarea">Which dive sites would you like to cover?</label>
+                <textarea id="requests-textarea">
+                </textarea>
+                <br><br>
+
                 <button id="submit" name="submit">Submit</button>
             </form>
         </div>
